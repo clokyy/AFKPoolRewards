@@ -1,0 +1,9 @@
+name: AfkPoolRewards
+version: '${project.version}'
+main: org.clokyy.afkpoolrewards.AfkPoolRewards
+api-version: 1.19
+author: Clokyy
+depend:
+  - WorldGuard
+  - Essentials
+
