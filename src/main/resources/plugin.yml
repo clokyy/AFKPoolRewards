@@ -6,4 +6,7 @@ author: Clokyy
 depend:
   - WorldGuard
   - Essentials
-
+commands:
+  afktime:
+    description: Check how long a user has been afk for.
+    usage: /afktime <player>
