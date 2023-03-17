@@ -41,7 +41,7 @@ public final class AfkPoolRewards extends JavaPlugin implements Listener {
         Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "-------------------------------------");
         Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "ENABLING AFK REWARDS");
         Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Created and Updated by Clokyy (BigScaryMan#2495)");
-        Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Version 1.1");
+        Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Version 1.2 BETA");
         Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "-------------------------------------");
     }
 
