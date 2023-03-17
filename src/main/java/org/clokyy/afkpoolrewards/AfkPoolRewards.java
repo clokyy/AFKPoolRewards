@@ -33,7 +33,7 @@ public final class AfkPoolRewards extends JavaPlugin implements Listener {
             public void run(){
                 GiveKey();
             }
-        }.runTaskTimer(this, 0L, 20L * 30L * 60L);
+        }.runTaskTimer(this, 0L, 20L * 60 * 30L);
 
         getCommand("afktime").setExecutor(this);
 
@@ -57,7 +57,7 @@ public final class AfkPoolRewards extends JavaPlugin implements Listener {
         for (Player player: Bukkit.getOnlinePlayers()){
             if(isInRegion(player)){
                 if(isAfk(player)){
-                    Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "give " + player.getName() + " minecraft:stone");
+                    Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "crate give " + player.getName() + " 139");
                 }
             }
         }
